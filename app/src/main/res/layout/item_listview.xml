@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="1dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    >
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/tv_permanent_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parmanemt Address"
+        android:textSize="10dp"
+        android:textStyle="normal"
+        />
+
+    <TextView
+        android:id="@+id/tv_current_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Address"
+        android:textSize="10dp"
+        android:textStyle="normal"
+        />
+
+    <TextView
+        android:id="@+id/tv_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:textSize="15dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/tv_bloodgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blood Group"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        />
+
+
+
+
+</LinearLayout>
